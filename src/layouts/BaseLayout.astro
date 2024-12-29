@@ -22,6 +22,17 @@ const {
   <head>
     <BaseHead title={title} description={description} image={image} , ogType={ogType} />
     {TRANSITION_API && <ViewTransitions />}
+    <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/ecc032754e.js" crossorigin="anonymous"></script>
+
+    <script>
+      document.addEventListener('astro:after-swap', () => {
+        if (window.FontAwesome) {
+          window.FontAwesome.dom.i2svg(); // Re-render SVG icons after Astro hydration
+        }
+      });
+    </script>-->
   </head>
   <body>
     <div class="bg-base-100 drawer lg:drawer-open">

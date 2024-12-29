@@ -12,50 +12,51 @@ const last_posts = posts.slice(0, 3);
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
+    <div class="text-5xl font-bold">I'm Jonathan L. Salazar</div>
+    <div class="text-3xl py-3 font-bold">Software Engineer Student</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+        Hello! I'm Jonathan, a passionate and driven Software Engineering student dedicated to solving real-world problems through innovative technology. This portfolio showcases my journey, skills, and projects that highlight my growth in the tech industry.
+        <br>
+        Explore my projects, discover my expertise, and join me in creating solutions that make a difference. Let’s shape the future together, one line of code at a time!
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
+      <a class="btn" href="mailto:jonathan282salazar@gmail.com" target="_blank"> Let's connect!</a>
+      <a href="/cv" target="_self" class="btn btn-outline ml-5">
+        About me
       </a>
     </div>
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2">Main Projects {"</>"}</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Mi Chaucherita"
+    icon="fas fa-coins"
+    desc="Personal financial accounting software that allows users to manage their accounts and track their financial transactions in detail."
+    url="https://github.com/jluSalazar/Mi-Chaucherita.git"
+    badge="Finished"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Tic Tac Toe"
+    icon="fa-solid fa-puzzle-piece"
+    desc="Desktop Videogame developed with Python. The player play against the IA, wich one is using MiniMax Algorithm."
+    url="https://github.com/jluSalazar/TicTacToe.git"
+    badge="Finished"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="Yoga WebApp"
+    icon="fa-solid fa-person-running"
+    desc="Software that allows users to explore and learn about various yoga postures giving a detailed guide about how should it be done."
+    url="https://github.com/Ketif2/Api-yoga.git"
+    badge="Finished"
   />
-
+<!-- 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
@@ -74,5 +75,5 @@ const last_posts = posts.slice(0, 3);
         <div class="divider my-0" />
       </>
     ))
-  }
+  } -->
 </BaseLayout>

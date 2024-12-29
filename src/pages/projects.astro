@@ -5,22 +5,34 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Main Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Mi Chaucherita"
+    icon="fa-solid fa-coins"
+    desc="Personal financial accounting software that allows users to manage their accounts and track their financial transactions in detail."
+    url="https://github.com/jluSalazar/Mi-Chaucherita.git"
+    badge="Finished"
+    tags={['JAVA', 'ORM: MySQL', 'HTML', 'CSS', 'RUP']}
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Tic Tac Toe"
+    icon="fa-solid fa-puzzle-piece"
+    desc="Desktop Videogame developed with Python. The player play against the IA, wich one is using MiniMax Algorithm."
+    url="https://github.com/jluSalazar/TicTacToe.git"
+    badge="Finished"
+    tags={['Python', 'MiniMax', 'Alpha-Beta pruning', 'pygame']}
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Yoga WebApp"
+    icon="fa-solid fa-person-running"
+    desc="Software that allows users to explore and learn about various yoga postures giving a detailed guide about how should it be done."
+    url="https://github.com/Ketif2/Api-yoga.git"
+    badge="Finished"
+    tags={['JAVA', 'MySQL', 'HTML', 'CSS']}
   />
 
   <div>
@@ -28,24 +40,26 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="Landing Page SPA"
+    icon="fa-solid fa-spa"
+    desc="Landing Page of a SPA business. It was developed based on a document of design specifications."
+    url="https://github.com/jluSalazar/SPA-HomePage.git"
+    badge="Finished"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Cookies and Sessions"
+    icon="fa-solid fa-cookie-bite"
+    desc="Login in a basic html page using cookies and sessions trough GET and POST methods."
+    url="https://github.com/jluSalazar/CookiesySesiones.git"
+    badge="Finished"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Library Manager"
+    icon="fa-solid fa-book"
+    desc="An Desktop app that manage books, categories and personal in a Library."
+    url="https://github.com/jluSalazar/WinAppBiblioteca.git"
+    badge="Finished"
   />
 </BaseLayout>
